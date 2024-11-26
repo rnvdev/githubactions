@@ -1,0 +1,11 @@
+name: 01 - Building Blocks.
+
+on:
+    - push
+    - workflow-dispatch
+
+jobs:
+    echo-hello:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Say hello"
