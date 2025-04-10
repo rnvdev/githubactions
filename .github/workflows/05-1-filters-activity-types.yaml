@@ -6,10 +6,9 @@ on:
         branches: 
             - main
 
-
 jobs:
     Echo:
         runs-on: ubuntu-latest
         steps:
             - name: Printer
-              run: "Running whenever a PR is opened or synchronized AND base branch is main."
+              run: echo "Running whenever a PR is opened or synchronized AND base branch is main."
